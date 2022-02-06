@@ -2,25 +2,21 @@
   {
     "repository" : "vendor_xiaomi_sdm845-common",
     "target_path": "vendor/xiaomi/sdm845-common",
-    "branch": "twelve",
-    "remote": "pixel-devices-blobs"
+    "branch": "snow",
   },
   {
     "repository" : "vendor_xiaomi_sdm845-common-extra",
     "target_path": "vendor/xiaomi/sdm845-common-extra",
-    "branch": "twelve",
-    "remote": "pixel-devices-blobs"
+    "branch": "snow",
   },
   {
     "repository": "vendor_xiaomi-firmware",
     "target_path": "vendor/xiaomi-firmware",
-    "branch": "twelve",
-    "remote": "pixel-devices-blobs"
+    "branch": "snow",
   },
   {
     "repository":"hardware_xiaomi",
     "target_path":"hardware/xiaomi",
-    "branch":"twelve",
-    "remote":"pixel"
+    "branch":"snow",
   }
 ]
