@@ -488,17 +488,6 @@ vendor/bin/msm_irqbalance|b075c2f4092c175950a2c26d19bf2013e2efd6d5
 vendor/etc/msm_irqbalance.conf
 
 # Listen
-vendor/lib64/hw/sound_trigger.primary.sdm845.so|36f4868c560deaffc07e661893e145167d707fbe
-vendor/lib64/libcapiv2svacnn.so
-vendor/lib64/libcapiv2vop.so
-vendor/lib64/libgcs-calwrapper.so
-vendor/lib64/libgcs-ipc.so
-vendor/lib64/libgcs-osal.so
-vendor/lib64/libgcs.so
-vendor/lib64/libjnihelper.so
-vendor/lib64/liblistenjni.so
-vendor/lib64/liblistensoundmodel2.so
-vendor/lib64/libmulawdec.so
 vendor/lib/hw/sound_trigger.primary.sdm845.so|5454d56f9e19a8bcc00c1f3cd0bf305406c125a5
 vendor/lib/libadpcmdec.so
 vendor/lib/libcapiv2svacnn.so
@@ -507,11 +496,21 @@ vendor/lib/libgcs-calwrapper.so
 vendor/lib/libgcs-ipc.so
 vendor/lib/libgcs-osal.so
 vendor/lib/libgcs.so
-vendor/lib/libjnihelper.so
 vendor/lib/liblistenjni.so
 vendor/lib/liblistensoundmodel2.so
 vendor/lib/libmulawdec.so
 vendor/lib/libsmwrapper.so
+vendor/lib/libjnihelper.so
+vendor/lib64/hw/sound_trigger.primary.sdm845.so|36f4868c560deaffc07e661893e145167d707fbe
+vendor/lib64/libcapiv2svacnn.so
+vendor/lib64/libcapiv2vop.so
+vendor/lib64/libgcs-calwrapper.so
+vendor/lib64/libgcs-ipc.so
+vendor/lib64/libgcs-osal.so
+vendor/lib64/libgcs.so
+vendor/lib64/liblistenjni.so
+vendor/lib64/liblistensoundmodel2.so
+vendor/lib64/libmulawdec.so
 
 # Media codecs - from OnePlus6 - RKQ1.201217.002/2106301530
 vendor/lib/libAlacSwDec.so|1d074a0415ee358cd13c981e35266cff4c6863ce
