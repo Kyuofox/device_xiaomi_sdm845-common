@@ -628,8 +628,8 @@ vendor/lib/libqmi_csi.so|f894b371222abc94d759bb0260bcb44f3b067bee
 vendor/lib/libqmi_encdec.so|42f1d3da38170a5a69edaeb459db8425f455c625
 vendor/lib/libqmiservices.so|4b8aece94c02b56474b6044e4bdef749a4d91822
 
-# Power-off charging daemon
-system/bin/charger:system/bin/chargeonlymode|69b29c2c7b7c65a0d8fd26c2a56f6211e2795fc5
+# Power-off charging daemon - from vayu - SKQ1.211006.001
+system/bin/charger:system/bin/chargeonlymode|bc8f81390ab691ddd815d27644b49afd988f8e47
 
 # RIL - from LA.QSSI.12.0.r1-05100-qssi.0
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|c8a2ce9a86e542daf835dc0bfa1a63ed7e412d84
