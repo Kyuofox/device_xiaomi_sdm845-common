@@ -65,9 +65,6 @@ TARGET_ENABLE_MEDIADRM_64 := true
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
-# Fingerprint
-TARGET_SURFACEFLINGER_UDFPS_LIB := //$(COMMON_PATH):libudfps_extension.xiaomi_sdm845
-
 # Graphics
 TARGET_USES_GRALLOC1 := true
 TARGET_USES_HWC2 := true
