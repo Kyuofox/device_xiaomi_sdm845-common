@@ -628,12 +628,56 @@ vendor/lib/libqmi_csi.so|f894b371222abc94d759bb0260bcb44f3b067bee
 vendor/lib/libqmi_encdec.so|42f1d3da38170a5a69edaeb459db8425f455c625
 vendor/lib/libqmiservices.so|4b8aece94c02b56474b6044e4bdef749a4d91822
 
+# Power-off charging daemon
+system/bin/charger:system/bin/chargeonlymode|69b29c2c7b7c65a0d8fd26c2a56f6211e2795fc5
+
 # RIL - from LA.QSSI.12.0.r1-05100-qssi.0
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|c8a2ce9a86e542daf835dc0bfa1a63ed7e412d84
 system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
 system_ext/framework/qcrilhook.jar|f251fd8cf621c66a970597954c257d69b6136eda
 system_ext/framework/qti-telephony-common.jar|2ba72ac401a98fe15d23d58867757a2033d51f67
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|47ff9a1712950fc9f877691f2712d8aa7fcf3420
+
+# QMI
+system/etc/permissions/qti_libpermissions.xml:system_ext/etc/permissions/qti_libpermissions.xml
+system/etc/permissions/qti_permissions.xml:system_ext/etc/permissions/qti_permissions.xml
+vendor/bin/irsc_util
+vendor/etc/sec_config
+vendor/lib64/libdiag.so
+vendor/lib64/libdsi_netctrl.so
+vendor/lib64/libdsutils.so
+vendor/lib64/libidl.so
+vendor/lib64/libqcci_legacy.so
+vendor/lib64/libqcmaputils.so
+vendor/lib64/libqdi.so
+vendor/lib64/libqdp.so
+vendor/lib64/libqmi.so
+vendor/lib64/libqmi_cci.so
+vendor/lib64/libqmi_client_helper.so
+vendor/lib64/libqmi_client_qmux.so
+vendor/lib64/libqmi_common_so.so
+vendor/lib64/libqmi_csi.so
+vendor/lib64/libqmi_encdec.so
+vendor/lib64/libqminvapi.so
+vendor/lib64/libqmiservices.so
+vendor/lib/libdiag.so
+vendor/lib/libdsi_netctrl.so
+vendor/lib/libdsutils.so
+vendor/lib/libidl.so
+vendor/lib/libqcci_legacy.so
+vendor/lib/libqcmaputils.so
+vendor/lib/libqdi.so
+vendor/lib/libqdp.so
+vendor/lib/libqmi.so
+vendor/lib/libqmi_cci.so
+vendor/lib/libqmi_client_helper.so
+vendor/lib/libqmi_client_qmux.so
+vendor/lib/libqmi_common_so.so
+vendor/lib/libqmi_csi.so
+vendor/lib/libqmi_encdec.so
+vendor/lib/libqminvapi.so
+vendor/lib/libqmiservices.so
+>>>>>>> parent of bf4d61b (sdm845-common: Switch To AOSP Offline Charging)
 
 # RIL - from pyxis - RKQ1.200826.002/21.3.31
 -vendor/app/IWlanService/IWlanService.apk|fcb1740cdc53c2845eb0609244e3d9790f21c232
