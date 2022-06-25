@@ -307,11 +307,7 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.2 \
     android.hardware.power@1.2.vendor \
     android.hardware.power-service \
-    android.hardware.power-service-qti \
-    android.hardware.power-service.xiaomi-sdm845-libperfmgr
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/power-libperfmgr/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+    android.hardware.power-service-qti
 
 # Protobuf
 PRODUCT_PACKAGES += \
@@ -376,7 +372,6 @@ SRC_MEDIA_HAL_DIR := hardware/qcom/media
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
-    hardware/google/pixel \
     hardware/xiaomi \
     vendor/qcom/opensource/usb/etc \
     vendor/qcom/opensource/audio-hal/primary-hal \
